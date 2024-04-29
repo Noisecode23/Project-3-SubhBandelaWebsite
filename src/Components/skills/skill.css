@@ -1,0 +1,15 @@
+.container-cr{
+    margin-top: 40px;
+    gap: 20px;
+}
+.cr{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+.cr img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}

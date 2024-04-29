@@ -1,0 +1,58 @@
+*{
+    overflow: hidden;
+}
+.absolute-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cur-pointer{
+    cursor: pointer;
+    transition: all ease 0.25s;
+}
+.btn{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid black;
+    transition: all ease 0.25s;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+.m-1{
+    margin-top: 20px;
+}
+.op-1{
+    opacity: 0.5;
+}
+.m-2{
+    margin-top: 10px;
+}
+.p-1{
+    padding: 30px;
+}
+.slick-track{
+    display: flex;
+}
+.slick-next, .slick-prev{
+    width: 120px;
+    height: 50px;
+    margin: 0px 23px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: all ease 0.25s;
+    cursor: pointer;
+}
+.slick-next:hover, .slick-prev:hover{
+    color: #fff;
+    background-color: #000;
+}
+.txt-center{
+    text-align: center;
+}
+

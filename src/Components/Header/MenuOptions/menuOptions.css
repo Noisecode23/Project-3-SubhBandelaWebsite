@@ -1,0 +1,18 @@
+.menu{
+    padding: 30px;
+}
+.menu-options{
+    display: flex;
+    gap: 60px;
+    font-size: 2.5rem;
+    cursor: pointer;
+
+}
+.menu-options:hover .menu-option-img, .menu-options:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.menu-option-img{
+    width: 80px;
+    opacity: 0;
+}
